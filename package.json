@@ -1,7 +1,7 @@
 {
-  "name": "ovelyabot",
-  "version": "1.1.0",
-  "description": "a bot",
+  "name": "bot2.0.0",
+  "version": "2.0.0",
+  "description": "QQ bot base on OICQ",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "calculator": "^0.1.12",
+    "axios": "^1.1.0",
     "md5": "^2.3.0",
-    "oicq": "^1.19.6",
-    "request": "^2.88.2"
+    "oicq": "^2.3.1"
   }
 }

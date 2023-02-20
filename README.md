@@ -1,8 +1,20 @@
-# StaticBOT
-基于nodejs的QQ机器人，目前处于初级开发的阶段，正在逐步完善
+## 1.安装依赖
 
-使用方法：
+`cd StaticBot`
 
-需要nodejs14.0以上
+`npm install`
 
-在app.js文件添加自己的QQ与密码后运行node app.js命令即可
+## 2.修改config.json
+
+```json
+{
+    "uin":"bot的QQ号",
+    "password":"密码(如登录失败则此行空，改为扫码登录)",
+    "administrator":["管理员账号(可多填)"]
+}
+```
+
+## 3.运行
+
+` node app.js`
+
